@@ -19,10 +19,10 @@ public class Test {
             System.out.println("obj is an instance of Test"); // 输出：obj is an instance of Test
         }
 
-        // equals 方法,这是Java的一个方法，用于比较两个对象是否相等。默认情况下，它比较的是两个对象的内存地址
-        Test test1 = new Test();
-        Test test2 = new Test();
-        if (test1.equals(test2)) {
+        // equal 方法,这是Java的一个方法，用于比较两个对象是否相等。默认情况下，它比较的是两个对象的内存地址
+        String s1 = "10";
+        String s2 = "10";
+        if (s1.equals(s2)){
             System.out.println("test1 and test2 are equal"); // 输出：test1 and test2 are equal
         }
 
